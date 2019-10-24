@@ -1,0 +1,33 @@
+.widget{
+  background-color: white;
+  border: 1px solid $off-black;
+  margin-bottom: $xl-size;
+}
+
+
+//Widget header
+.widget-header{
+  background-color: white;
+  border-bottom: 1px solid $off-black;
+  color: $off-black;
+  display: flex;
+  justify-content: space-between;
+  padding: $m-size;
+}
+
+.widget-header__title{
+  margin:0;
+}
+
+//Widget content
+.widget__messsage{
+  color: $off-black;
+  text-align: center;
+  padding-top: $l-size;
+  padding-bottom: $l-size;
+  border-bottom: 1px solid  darken($light-blue,10%);
+}
+
+.widget-addoption{
+  padding: $s-size;
+}

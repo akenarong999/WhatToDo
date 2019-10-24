@@ -1,0 +1,38 @@
+.big_button{
+  background-color: white;
+  border:1px solid $off-black;
+  border-bottom: .6rem solid darken($off-black,10%);
+  color: $off-black;
+  font-weight: bold;
+  font-size: $l-size;
+  width: 100%;
+  margin-bottom: $s-size;
+  padding-top:  $l-size;
+  padding-bottom: $l-size;
+}
+
+.big_button:disabled{
+  opacity: .5;
+}
+
+@media (min-width: $desktop-breakpoint){
+  .big_button{
+    margin-bottom: $xl-size;
+  }
+}
+
+.button{
+  background-color: $off-black;
+  border:none;
+  border-bottom: 0.3rem solid darken($off-black,10%);
+  color:white;
+  font-weight: 500;
+  padding: $s-size
+}
+
+.button--link{
+  background: none;
+  border:none;
+  padding:0;
+  color:$off-white;
+}

@@ -1,5 +1,5 @@
 # WhatToDo
-When you don't know what to do, what to eat, what to play. Just add your things in the list and then click the big button. Computer will tell you what to do...<br /><br />
+When you don't know what to do, what to eat, what to play. Just add your things in the list and then click the big button. Computer will tell you what to do...<br />
 
 <h4>Developed using</h4>
 <ul>
